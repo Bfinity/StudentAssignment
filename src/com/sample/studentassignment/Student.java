@@ -8,10 +8,10 @@ package com.sample.studentassignment;
  * This class creates the template for a new student object.
  */
 public class Student {
-    int identifcationNumber;
-    int numberOfCredits;
-    int numberOfPoints;
-    double gradePointAverage;
+    private int identifcationNumber;
+    private int numberOfCredits;
+    private int numberOfPoints;
+    private double gradePointAverage;
 
     public void setIdentifcationNumber(int identifcationNumber) {
         this.identifcationNumber = identifcationNumber;
